@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos990-common/proprietary/vendor/etc/plmn_delta_usagsm.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_usagsm.bin \
     vendor/samsung/exynos990-common/proprietary/vendor/etc/plmn_se13.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_se13.bin \
     vendor/samsung/exynos990-common/proprietary/vendor/etc/sensor/lhd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor/lhd.conf \
-    vendor/samsung/exynos990-common/proprietary/vendor/etc/wifi/indoorchannel.info:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/indoorchannel.info \
     vendor/samsung/exynos990-common/proprietary/vendor/firmware/APSV_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APSV_AUDIO_SLSI.bin \
     vendor/samsung/exynos990-common/proprietary/vendor/firmware/NPU_NFD_P4.7.tflite:$(TARGET_COPY_OUT_VENDOR)/firmware/NPU_NFD_P4.7.tflite \
     vendor/samsung/exynos990-common/proprietary/vendor/firmware/a2dpcom.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a2dpcom.bin \
@@ -33,12 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos990-common/proprietary/vendor/firmware/avsyncmix.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/avsyncmix.bin \
     vendor/samsung/exynos990-common/proprietary/vendor/firmware/bayer2rgb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bayer2rgb.bin \
     vendor/samsung/exynos990-common/proprietary/vendor/firmware/bayer2yuv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bayer2yuv.bin \
-    vendor/samsung/exynos990-common/proprietary/vendor/firmware/bcm4375B1_murata.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4375B1_murata.hcd \
-    vendor/samsung/exynos990-common/proprietary/vendor/firmware/bcm4375B1_semco.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4375B1_semco.hcd \
-    vendor/samsung/exynos990-common/proprietary/vendor/firmware/bcm4375B1_semco_sem.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4375B1_semco_sem.hcd \
-    vendor/samsung/exynos990-common/proprietary/vendor/firmware/bcmdhd_mfg.bin_b1:$(TARGET_COPY_OUT_VENDOR)/firmware/bcmdhd_mfg.bin_b1 \
-    vendor/samsung/exynos990-common/proprietary/vendor/firmware/bcmdhd_mon.bin_b1:$(TARGET_COPY_OUT_VENDOR)/firmware/bcmdhd_mon.bin_b1 \
-    vendor/samsung/exynos990-common/proprietary/vendor/firmware/bcmdhd_sta.bin_b1:$(TARGET_COPY_OUT_VENDOR)/firmware/bcmdhd_sta.bin_b1 \
     vendor/samsung/exynos990-common/proprietary/vendor/firmware/bidirmic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bidirmic.bin \
     vendor/samsung/exynos990-common/proprietary/vendor/firmware/calliope2.dt:$(TARGET_COPY_OUT_VENDOR)/firmware/calliope2.dt \
     vendor/samsung/exynos990-common/proprietary/vendor/firmware/calliope_dram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/calliope_dram.bin \
@@ -83,16 +76,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos990-common/proprietary/vendor/firmware/libnn.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/libnn.elf \
     vendor/samsung/exynos990-common/proprietary/vendor/firmware/listenbackeffect.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/listenbackeffect.bin \
     vendor/samsung/exynos990-common/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin \
-    vendor/samsung/exynos990-common/proprietary/vendor/firmware/nvram.txt_1rh_es11_b0:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_1rh_es11_b0 \
-    vendor/samsung/exynos990-common/proprietary/vendor/firmware/nvram.txt_1rh_es12_b0:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_1rh_es12_b0 \
-    vendor/samsung/exynos990-common/proprietary/vendor/firmware/nvram.txt_1rh_es13_b0:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_1rh_es13_b0 \
-    vendor/samsung/exynos990-common/proprietary/vendor/firmware/nvram.txt_1rh_es32_b0:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_1rh_es32_b0 \
-    vendor/samsung/exynos990-common/proprietary/vendor/firmware/nvram.txt_1rh_es41_b1:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_1rh_es41_b1 \
-    vendor/samsung/exynos990-common/proprietary/vendor/firmware/nvram.txt_1rh_es42_b1:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_1rh_es42_b1 \
-    vendor/samsung/exynos990-common/proprietary/vendor/firmware/nvram.txt_ES00_semco_b0:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_ES00_semco_b0 \
-    vendor/samsung/exynos990-common/proprietary/vendor/firmware/nvram.txt_ES01_semco_b0:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_ES01_semco_b0 \
-    vendor/samsung/exynos990-common/proprietary/vendor/firmware/nvram.txt_ES02_semco_b0:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_ES02_semco_b0 \
-    vendor/samsung/exynos990-common/proprietary/vendor/firmware/nvram.txt_ES03_semco_b0:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_ES03_semco_b0 \
     vendor/samsung/exynos990-common/proprietary/vendor/firmware/rgb2bayer.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rgb2bayer.bin \
     vendor/samsung/exynos990-common/proprietary/vendor/firmware/rxse.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rxse.bin \
     vendor/samsung/exynos990-common/proprietary/vendor/firmware/sb_ll.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sb_ll.bin \
@@ -134,9 +117,7 @@ PRODUCT_PACKAGES += \
     audio.primary.exynos990 \
     vendor.samsung.hardware.audio@1.0-impl \
     libSamsungPostProcessConvertor \
-    lib_SamsungRec_08020 \
     lib_SoundAlive_SRC384_ver320 \
-    lib_lvacfs \
     lib_soundaliveresampler \
     libaboxpcmdump \
     libalsautils_sec \
