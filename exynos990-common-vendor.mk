@@ -132,7 +132,6 @@ PRODUCT_PACKAGES += \
     libspatializerparamstorage \
     libwvhidl \
     libaudioeffectoffload \
-    vendor.samsung.hardware.bluetooth.a2dp@1.0 \
     vendor.samsung_slsi.hardware.ExynosA2DPOffload@3.0 \
     libaudioroute.exynos990 \
     libtinyalsa.exynos990 \
